@@ -28,10 +28,99 @@ Validate the HTML code.
 Publish the website in the given URL.
 
 ## PROGRAM:
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Restaurant</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #fff8f0;
+        }
+        header {
+            background-color: #8b0000;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #333;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            display: inline-block;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #8b0000;
+        }
+        .container {
+            padding: 20px;
+        }
+        h2 {
+            color: #8b0000;
+        }
+        .menu-item {
+            background: white;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
 
-Include your program
+<body>
+
+<header>
+    <h1>Delicious Bites Restaurant</h1>
+    <p>Fresh • Tasty • Hygienic</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">Menu</a>
+    <a href="#">Services</a>
+    <a href="#">Contact</a>
+</nav>
+
+<div class="container">
+    <h2>Our Menu</h2>
+    <div class="menu-item">🍕 Pizza</div>
+    <div class="menu-item">🍔 Burger</div>
+    <div class="menu-item">🍝 Pasta</div>
+    <div class="menu-item">🥗 Salads</div>
+
+    <h2>Our Services</h2>
+    <ul>
+        <li>Dine In</li>
+        <li>Take Away</li>
+        <li>Home Delivery</li>
+        <li>Catering Services</li>
+    </ul>
+</div>
+
+<footer>
+    <p>&copy; 2025 Delicious Bites Restaurant</p>
+</footer>
+
+</body>
+</html>
+```
+
 ## OUTPUT:
-Include the Screenshot
+![alt text](<Screenshot 2025-12-24 105918.png>)
 
 ## RESULT:
 The program for designing software company website using HTML and CSS is completed successfully.
